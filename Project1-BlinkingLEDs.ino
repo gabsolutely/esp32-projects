@@ -26,3 +26,4 @@ digitalWrite (ledPin1, LOW);
 digitalWrite (ledPin2, LOW);
 digitalWrite (ledPin3, HIGH);
 delay (dt);
+}
