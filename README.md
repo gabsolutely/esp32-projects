@@ -13,3 +13,9 @@
 -**Description:** A potentiometer controlled brightness from the red LED along with a "MAX" indicator with the green LED.
 
 ---------
+
+## Project #3: Bluetooth RGB LED
+-**Code:** [Project3-BluetoothRG LED.ino](./Project3-BluetoothRGBLED.ino)
+-**Description:** RGB LED controlled by Bluetooth with ON/OFF function and an RGB color changing system.
+
+---------
