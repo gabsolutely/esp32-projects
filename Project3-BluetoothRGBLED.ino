@@ -1,85 +1,62 @@
 #include "BluetoothSerial.h"
 BluetoothSerial BTserial;
-// change according to your pinouts
-int redPin = 15;
-int greenPin = 2;
-int greenState = 1;
-int butPin = 18;
-//the pir is the motion sensor
-int pirPin = 23;
-int butNew;
-int butOld;
-int pirVal = 0;
-int pirState = LOW;
-bool armed = 1;
-char cmd;
+//change according to pinouts
+int redPin = 13;
+int greenPin = 12;
+int bluePin = 14;
+int redVal;
+int greenVal;
+int blueVal;
+String cmd;
+
+
 void setup() {
   // put your setup code here, to run once:
+  //.          name of esp32 bluetooth
 BTserial.begin ("BTserial");
 pinMode (redPin, OUTPUT);
 pinMode (greenPin, OUTPUT);
-digitalWrite (greenPin, HIGH);
-pinMode (butPin, INPUT_PULLUP);
-digitalWrite (butPin, HIGH);
-pinMode (pirPin, INPUT);
-
-
+pinMode (bluePin, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
+BTserial.println("\n1. TURN LED OFF");
+BTserial.println("2. TURN LED ON");
+BTserial.println("3. PICK COLOR");
+  while (!BTserial.available());
+cmd = BTserial.readString();
 
-if (BTserial.available()) {
-cmd = BTserial.read();
-BTserial.println("\nMORTION SENSOR MENU");
-BTserial.println("1. ARM");
-BTserial.println("2. DISARM");
-
-if (cmd == '1') {
-BTserial.println("\nARMED");
-digitalWrite (greenPin, LOW);
-greenState = 0;
-armed = 1;
+if (cmd == "1") {
+redVal=0;
+greenVal=0;
+blueVal=0;
 }
 
-if (cmd == '2') {
-BTserial.println("\nDISARMED");
-digitalWrite (greenPin, HIGH);
-greenState = 1;
-armed = 0;
+if (cmd == "2") {
+redVal=255;
+greenVal=255;
+blueVal=255;
 }
-}
+//RGB color mixing
+if (cmd == "3") {
+ BTserial.println("\nHOW BRIGHT ARE THE COLORS? (0-255)");
+ BTserial.println("ENTER RED: ");
+ while (!BTserial.available());
+ redVal = BTserial.parseInt();
 
-butNew = digitalRead (butPin);
-if (butOld==0 && butNew == 1){
-  armed = !armed;
- if (greenState == 1){
-digitalWrite (greenPin, LOW);
-greenState = 0;
- }
-}
-if (!armed) {
-digitalWrite (greenPin, HIGH);
-greenState = 1;
-}
-butOld = butNew;
+ BTserial.println("\nENTER GREEN: ");
+ while (!BTserial.available());
+ greenVal = BTserial.parseInt();
 
+ BTserial.println("\nENTER BLUE: ");
+ while (!BTserial.available());
+ blueVal = BTserial.parseInt();
+}
+else {BTserial.println("\nno");}
+analogWrite (redPin, redVal);
+analogWrite (greenPin, greenVal);
+analogWrite (bluePin, blueVal);
 
-pirVal = digitalRead (pirPin);
-while (pirVal == HIGH && armed == 1) {
-  if (pirState == LOW && armed == 1) {
-BTserial.println("MOTION DETECTED");
-digitalWrite (redPin , HIGH);
-pirState = HIGH;
-delay (500);
-  }
-}
-else {
- if (pirState == HIGH && armed == 1) {
-BTserial.println ("MOTION ENDED");
-digitalWrite (redPin, LOW);
-pirState = LOW;
- }
-}
 
 }
