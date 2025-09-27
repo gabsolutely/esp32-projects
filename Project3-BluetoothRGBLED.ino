@@ -1,10 +1,11 @@
 #include "BluetoothSerial.h"
 BluetoothSerial BTserial;
-
+// change according to your pinouts
 int redPin = 15;
 int greenPin = 2;
 int greenState = 1;
 int butPin = 18;
+//the pir is the motion sensor
 int pirPin = 23;
 int butNew;
 int butOld;
