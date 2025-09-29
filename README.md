@@ -19,3 +19,9 @@
 -**Description:** RGB LED controlled by Bluetooth with ON/OFF function and an RGB color changing system.
 
 ---------
+
+## Project #4: Motion Sensor Bluetooth 
+-**Code:** [Project4-MotionSensorBT.ino](./Project4-MotionSensorBT.ino)
+-**Description:** A motion sensor system connected via Bluetooth where you can get messages of motion started/ended, with arm and disarm function in both via Bluetooth and a button.
+
+---------
