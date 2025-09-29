@@ -1,11 +1,12 @@
 #include "BluetoothSerial.h"
 BluetoothSerial BTserial;
-
+//change according to pinouts
 int redPin = 15;
 int greenPin = 2;
 int greenState = 1;
 int butPin = 18;
 int pirPin = 23;
+
 int butNew;
 int butOld;
 int pirVal = 0;
@@ -14,6 +15,7 @@ bool armed = 1;
 char cmd;
 void setup() {
   // put your setup code here, to run once:
+//bluetooth name -vvvvvvv-
 BTserial.begin ("BTserial");
 pinMode (redPin, OUTPUT);
 pinMode (greenPin, OUTPUT);
