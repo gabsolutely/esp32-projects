@@ -31,3 +31,9 @@
 -**Description:** An LED controlled via WiFi Webserver.
 
 ---------
+
+## Project #6: Wifi Controlled RGB LED
+-**Code:** [Project5-WiFiRGBLED.ino](./Project5-WiFiRGBLED.ino)
+-**Description:** An RGB LED controlled via WiFi Webserver with changeable RGB colors (fixed color).
+
+---------
