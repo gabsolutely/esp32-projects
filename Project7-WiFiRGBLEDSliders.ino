@@ -1,7 +1,7 @@
 #include <WiFi.h>
 // put wifi and password
-const char* ssid = "MERCURY DRUG";
-const char* password = "Passwordmomukamo@7177";
+const char* ssid = "yourWifiName";
+const char* password = "yourPassword";
 WiFiServer server (80);
 
 //chamge according to pinouts
