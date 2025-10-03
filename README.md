@@ -37,3 +37,9 @@
 -**Description:** An RGB LED controlled via WiFi Webserver with changeable RGB colors (fixed color).
 
 ---------
+
+## Project #7: Wifi Slider Controlled RGB LED
+-**Code:** [Project7-WiFiRGBLEDSlider.ino](./Project7-WiFiRGBLEDSlider.ino)
+-**Description:** An RGB LED controlled via WiFi Webserver with changeable RGB color mixing using Webserver sliders.
+
+---------
