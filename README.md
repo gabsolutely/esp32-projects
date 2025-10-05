@@ -43,3 +43,9 @@
 -**Description:** An RGB LED controlled via WiFi Webserver with changeable RGB color mixing using Webserver sliders.
 
 ---------
+
+## Project #8: DHT11 Sensor on WiFi
+-**Code:** [Project8-DHT11WiFi.ino](./Project8-DHT11WiFi.ino)
+-**Description:** Temperature and humidity sensor observable with a WiFi Webserver with arm/disarm system.
+
+---------
