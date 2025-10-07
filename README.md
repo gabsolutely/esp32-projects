@@ -49,3 +49,9 @@
 -**Description:** Temperature and humidity sensor observable with a WiFi Webserver with arm/disarm system.
 
 ---------
+
+## Project #9: Photosensor Multi System w/ WiFi
+-**Code:** [Project9-PhotosensorWiFi.ino](./Project9-PhotosensorWiFi.ino)
+-**Description:** Photosensor multi system that lights up an LED once it gets dim, can also toggle into manual/automatic LED power mode, controllable over WiFi
+
+---------
