@@ -55,3 +55,9 @@
 -**Description:** Photosensor multi system that lights up an LED once it gets dim, can also toggle into manual/automatic LED power mode, controllable over WiFi
 
 ---------
+
+## Project #10: OLED Message displayer using WiFi Webserver
+-**Code:** [Project10-OLEDMessageWiFi.ino](./Project10-OLEDMessageWiFi.ino)
+-**Description:** OLED display that displays any text you send through the HTML Webserver.
+
+---------
