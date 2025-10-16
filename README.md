@@ -62,8 +62,14 @@
 
 ---------
 
-## Project #11: Stopwatch w/ WiFi
+## Project #11: Stopwatch + WiFi
 -**Code:** [Project11-StopwatchWiFi.ino](./Project11-StopwatchWiFi.ino)
 -**Description:** Stopwatch system in OLED and WiFi Webservers controlled by buttons, both in hardware and Webserver.
+
+---------
+
+## Project #12: Stopwatch (w/ Laps) + WiFi
+-**Code:** [Project12-StopwatchLapsWiFi.ino](./Project12-StopwatchLapaWiFi.ino)
+-**Description:** Stopwatch system in OLED and WiFi Webservers controlled by buttons, both in hardware and Webserver, with a new laps feature.
 
 ---------
