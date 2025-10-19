@@ -73,3 +73,9 @@
 -**Description:** Stopwatch system in OLED and WiFi Webservers controlled by buttons, both in hardware and Webserver, with a new laps feature.
 
 ---------
+
+## Project #3: In/Out Counter
+-**Code:** [Project13-Counter.ino](./Project13-Counter.ino)
+-**Description:** Counter that tracks In/Out passages with a reset/toggle button in both Webserver and via actual buttons.
+
+---------
