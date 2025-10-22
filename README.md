@@ -79,3 +79,9 @@
 -**Description:** Counter that tracks In/Out passages with a reset/toggle button in both Webserver and via actual buttons.
 
 ---------
+
+## Project #14: Real Time Weather & Time Display
+-**Code:** [Project14-RTWeather&TimeDisplay.ino](./Project14-RTWeather&TimeDisplay.ino)
+-**Description:** Real time weather and time displayed through an OLED screen by getting an API Key on open weather map.
+
+---------
