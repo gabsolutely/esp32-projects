@@ -85,3 +85,9 @@
 -**Description:** Real time weather and time displayed through an OLED screen by getting an API Key on open weather map.
 
 ---------
+
+## Project #15: Multi-Mode IoT Hub
+-**Code:** [Project15-MultiModeIOTHub.ino](./Project15-MultiModeIOTHub.ino)
+-**Description:** A multi-mode IoT hub displaying data such as weather & time, temperature & humidity and message sent through the Webserver, displaying them in an OLED screen.
+
+---------
