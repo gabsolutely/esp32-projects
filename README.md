@@ -91,3 +91,9 @@
 -**Description:** A multi-mode IoT hub displaying data such as weather & time, temperature & humidity and message sent through the Webserver, displaying them in an OLED screen.
 
 ---------
+
+## Project #16: DHT11 Data Logger
+-**Code:** [Project16-DHTDataLogger.ino](./Project16-DHTDataLogger.ino)
+-**Description:** a DHT11 data logger using SPIFFS to make a downloadable CSV and a chart.js to display readings at the WebServer.
+
+---------
