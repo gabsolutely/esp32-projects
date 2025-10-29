@@ -94,6 +94,6 @@
 
 ## Project #16: DHT11 Data Logger
 -**Code:** [Project16-DHTDataLogger.ino](./Project16-DHTDataLogger.ino)
--**Description:** a DHT11 data logger using SPIFFS to make a downloadable CSV and a chart.js to display readings at the WebServer.
+-**Description:** a DHT11 data logger using SPIFFS to make a downloadable CSV and a chart.js to display readings at the WebServer with an ON/OFF mode to stop/continue writing.
 
 ---------
