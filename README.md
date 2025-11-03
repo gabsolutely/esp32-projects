@@ -97,3 +97,9 @@
 -**Description:** a DHT11 data logger using SPIFFS to make a downloadable CSV and a chart.js to display readings at the WebServer with an ON/OFF mode to stop/continue writing.
 
 ---------
+
+## Project #17: Joystick Controlled Menu
+-**Code:** [Project17-JoystickMenu.ino](./Project17-JoystickMenu.ino)
+-**Description:** A menu of LEDs controlled via Joystick, displayed through webservers and OLED displays.
+
+---------
