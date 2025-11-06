@@ -1,4 +1,26 @@
 # Welcome! This is a collection of my projects!
+A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-mode IoT systems. Each of my projects as their ownn code and simple and brief description. (a few projects may need dependent libraries needed, so please double check before running.)
+
+# Table of Contents
+
+1. Blinking LEDs
+2. Potentiometer and LEDs
+3. Bluetooth RGB LED
+4. Motion Sensor Bluetooth
+5. WiFi Controlled LED
+6. WiFi Controlled RGB LED
+7. WiFi Slider Controlled RGB LED
+8. DHT11 Sensor on WiFi
+9. Photosensor Multi System w/ WiFi
+10. OLED Message Display using WiFi Webserver
+11. Stopwatch + WiFi
+12. Stopwatch (w/ Laps) + WiFi
+13. In/Out Counter
+14. Real Time Weather & Time Display
+15. Multi-Mode IoT Hub
+16. DHT11 Data Logger
+17. Joystick Controlled Menu
+18. Mock Stock Tracker
 
 ---------
 
@@ -22,7 +44,7 @@
 
 ## Project #4: Motion Sensor Bluetooth 
 -**Code:** [Project4-MotionSensorBT.ino](./Project4-MotionSensorBT.ino)
--**Description:** A motion sensor system connected via Bluetooth where you can get messages of motion started/ended, with arm and disarm function in both via Bluetooth and a button.
+-**Description:** A motion sensor system connected via Bluetooth where you can get messages of motion started/ended, with arm and disarm function in both via bluetooth and a button.
 
 ---------
 
@@ -52,11 +74,11 @@
 
 ## Project #9: Photosensor Multi System w/ WiFi
 -**Code:** [Project9-PhotosensorWiFi.ino](./Project9-PhotosensorWiFi.ino)
--**Description:** Photosensor multi system that lights up an LED once it gets dim, can also toggle into manual/automatic LED power mode, controllable over WiFi
+-**Description:** Multi-system photosensor that lights up an LED once it gets dim, can also toggle into manual/automatic LED power mode, controllable over WiFi.
 
 ---------
 
-## Project #10: OLED Message displayer using WiFi Webserver
+## Project #10: OLED Message display using WiFi Webserver
 -**Code:** [Project10-OLEDMessageWiFi.ino](./Project10-OLEDMessageWiFi.ino)
 -**Description:** OLED display that displays any text you send through the HTML Webserver.
 
@@ -70,11 +92,11 @@
 
 ## Project #12: Stopwatch (w/ Laps) + WiFi
 -**Code:** [Project12-StopwatchLapsWiFi.ino](./Project12-StopwatchLapsWiFi.ino)
--**Description:** Stopwatch system in OLED and WiFi Webservers controlled by buttons, both in hardware and Webserver, with a new laps feature.
+-**Description:** Stopwatch system in OLED and WiFi Webservers controlled by buttons, both in hardware and Webserver, with a laps feature.
 
 ---------
 
-## Project #3: In/Out Counter
+## Project #13: In/Out Counter
 -**Code:** [Project13-Counter.ino](./Project13-Counter.ino)
 -**Description:** Counter that tracks In/Out passages with a reset/toggle button in both Webserver and via actual buttons.
 
@@ -101,5 +123,11 @@
 ## Project #17: Joystick Controlled Menu
 -**Code:** [Project17-JoystickMenu.ino](./Project17-JoystickMenu.ino)
 -**Description:** A menu of LEDs controlled via Joystick, displayed through webservers and OLED displays.
+
+---------
+
+## Project #18: Mock Stock Tracker
+-**Code:** [Project18-MockStockTracker.ino](./Project18-MockStockTracker.ino)
+-**Description:** A mock that generates fake stock values and tracks them using a webserver and an OLED chart, aswell as incorpoating an RGB LED to display overall portfolio statuses (Red = negative change, yellowish-green = mixed, green = positive).
 
 ---------
