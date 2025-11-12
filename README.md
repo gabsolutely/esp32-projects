@@ -21,6 +21,7 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 16. DHT11 Data Logger
 17. Joystick Controlled Menu
 18. Mock Stock Tracker
+19. Gyro Display
 
 ---------
 
@@ -129,5 +130,11 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 ## Project #18: Mock Stock Tracker
 -**Code:** [Project18-MockStockTracker.ino](./Project18-MockStockTracker.ino)
 -**Description:** A mock that generates fake stock values and tracks them using a webserver and an OLED chart, aswell as incorpoating an RGB LED to display overall portfolio statuses (Red = negative change, yellowish-green = mixed, green = positive).
+
+---------
+
+## Project #19: Gyro Display
+-**Code:** [Project19-GyroDisplay.ino](./Project19-GyroDisplay.ino)
+-**Description:** Using a MPU6050_light, displays the pitch and roll values through the Webservers using chart.js. As well as an OLED that displays a pitch controlled bubble and a roll controlled line. This system can be calibrated by pressing a button on boot and has a complementary filter that provides fast and smooth changes while slowly drifting overtime to avoid noise/overshoot.
 
 ---------
