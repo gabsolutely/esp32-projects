@@ -23,6 +23,7 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 18. Mock Stock Tracker
 19. Gyro Display
 20. Morse Translator
+21. Mini Automatic Engineering Notebook
 
 ---------
 
@@ -143,5 +144,11 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 ## Project #20: Morse Translator
 -**Code:** [Project20-MorseTranslator.ino](./Project20-MorseTranslator.ino)
 -**Description:** A system that lets you input characters and numbers in morse code using a button and can form individual letters/words/messages using millis() timing. Displayed through an OLED display that calculates screen pixel usage to adjust/scroll through the different morse translated messages. Is also displayed through a Webserver which stores all the history of the morse translated characters and can also respond to said messages, which will also be displayed through the OLED. The Webserver has a "Download CSV" so you can keep a file of the conversation displayed, aswell as a "Clear Messages" button to clear the messages.
+
+---------
+
+## Project #21: Mini Automatic Engineering Notebook
+-**Code:** [Project21-MiniAEN](./Project21-MiniAEN)
+-**Description:** A miniature version of an AEN (Automatic Engineering Notebook), using a watchdog system that tracks and logs your activities on a given projects file you have chosen. The system tracks if a file is either created, modified, or deleted (color coded) and can optionally remind you via desktop notification if an event happens.
 
 ---------
