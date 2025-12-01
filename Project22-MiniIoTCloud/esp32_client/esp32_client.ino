@@ -7,9 +7,9 @@
 #include <DHT.h>
 
 // put your wifi name, password, and server url here
-const char* ssid = "MERCURY DRUG";
-const char* password = "Passwordmomukamo@7177";
-const char* serverUrl = "http://192.168.1.7:5000/data";
+const char* ssid = "yourWifiName";
+const char* password = "yourPassword";
+const char* serverUrl = "http://yourServerUrl/data";
 
 //put your dht pin and model/button pins
 DHT dht(4, DHT11);

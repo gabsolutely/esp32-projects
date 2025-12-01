@@ -10,7 +10,7 @@ Steps (local network development):
 1) PC: Install Python 3.8+ and Flask.
    - python3 -m venv venv
    - source venv/bin/activate  # or venv\Scripts\activate on Windows
-   - pip install -r requirements.txt
+   - pip install -r requirements.txt (or just Flask since its the only requirement for now)
 
 2) Run the server on your machine (make sure firewall allows port 5000):
    - python server.py
@@ -31,6 +31,8 @@ Notes:
 - For production or public exposure, add HTTPS, authentication, and a DB.
 
 FILE STRUCTURE
+
+MiniIoTCloud
 /esp32_client
  - esp32_client.ino
 /server.py
