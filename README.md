@@ -24,6 +24,7 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 19. Gyro Display
 20. Morse Translator
 21. Mini Automatic Engineering Notebook
+22. Mini IoT Cloud
 
 ---------
 
@@ -150,5 +151,11 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 ## Project #21: Mini Automatic Engineering Notebook
 -**Code:** [Project21-MiniAEN](./Project21-MiniAEN)
 -**Description:** A miniature version of an AEN (Automatic Engineering Notebook), using a watchdog system that tracks and logs your activities on a given projects file you have chosen. The system tracks if a file is either created, modified, or deleted (color coded) and can optionally remind you via desktop notification if an event happens.
+
+---------
+
+## Project #22: Mini IoT Cloud
+-**Code:** [Project22-MiniIoTCloud.ino](./Project22-MiniIoTCloud.ino)
+-**Description:** An esp32 that POSTs JSON to the Flask server (server.py) which stores recent readings and will serve as a simple dashboard, getting the static and index from their separate files (index.html and static.js for live dashboard).
 
 ---------
