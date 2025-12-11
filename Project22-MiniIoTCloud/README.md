@@ -33,13 +33,20 @@ Notes:
 FILE STRUCTURE
 
 MiniIoTCloud
+
 /esp32_client
  - esp32_client.ino
+
 /server.py
+
 /static
  - script.js
+   
 /templates
  - index.html
+   
 /data.csv
+
 /requiremens.txt
+
 /README.md
