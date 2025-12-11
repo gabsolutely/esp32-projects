@@ -25,6 +25,7 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 20. Morse Translator
 21. Mini Automatic Engineering Notebook
 22. Mini IoT Cloud
+23. Smart AI Predictor
 
 ---------
 
@@ -155,7 +156,11 @@ A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-
 ---------
 
 ## Project #22: Mini IoT Cloud
--**Code:** [Project22-MiniIoTCloud.ino](./Project22-MiniIoTCloud.ino)
+-**Code:** [Project22-MiniIoTCloud](./Project22-MiniIoTCloud)
 -**Description:** An esp32 that POSTs JSON to the Flask server (server.py) which stores recent readings and will serve as a simple dashboard, getting the static and index from their separate files (index.html and static.js for live dashboard).
 
 ---------
+
+## Project #23: Smart AI Predictor
+-**Code:** [Project23-SmartPredict](./Project23-SmartPredict)
+-**Description:** An ESP32 reads temperature and humidity from a DHT11 sensor and POSTs JSON data to a Flask AI server (app.py). The server loads a trained ML model (model.pkl), predicts based on incoming sensor data, and responds. The ESP32 reacts to predictions and is a fully local network setup.
