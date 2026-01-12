@@ -6,7 +6,7 @@ MIT License — feel free to use, modify, and distribute.
 
 # Table of Contents
 
-1. Blinking LEDs
+1. [Blinking LEDs] (./Project1-BlinkingLEDs.ino)
 2. Potentiometer and LEDs
 3. Bluetooth RGB LED
 4. Motion Sensor Bluetooth
