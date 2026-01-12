@@ -6,30 +6,30 @@ MIT License — feel free to use, modify, and distribute.
 
 # Table of Contents
 
-1. [Blinking LEDs] (./Project1-BlinkingLEDs.ino)
-2. Potentiometer and LEDs
-3. Bluetooth RGB LED
-4. Motion Sensor Bluetooth
-5. WiFi Controlled LED
-6. WiFi Controlled RGB LED
-7. WiFi Slider Controlled RGB LED
-8. DHT11 Sensor on WiFi
-9. Photosensor Multi System w/ WiFi
-10. OLED Message Display using WiFi Webserver
-11. Stopwatch + WiFi
-12. Stopwatch (w/ Laps) + WiFi
-13. In/Out Counter
-14. Real Time Weather & Time Display
-15. Multi-Mode IoT Hub
-16. DHT11 Data Logger
-17. Joystick Controlled Menu
-18. Mock Stock Tracker
-19. Gyro Display
-20. Morse Translator
-21. Mini Automatic Engineering Notebook
-22. Mini IoT Cloud
-23. Smart AI Predictor
-24. ESP Auto-Environment
+1. [Blinking LEDs](./Project1-BlinkingLEDs.ino)
+2. [Potentiometer and LEDs](./Project2-PotentiometerLED.ino)
+3. [Bluetooth RGB LED](./Project3-BluetoothRGBLED.ino)
+4. [Motion Sensor Bluetooth](./Project4-MotionSensorBT.ino)
+5. [WiFi Controlled LED](./Project5-WiFiLED.ino)
+6. [WiFi Controlled RGB LED](./Project6-WiFiRGBLED.ino)
+7. [WiFi Slider Controlled RGB LED](./Project7-WiFiRGBLEDSlider.ino)
+8. [DHT11 Sensor on WiFi](./Project8-DHT11WiFi.ino)
+9. [Photosensor Multi System w/ WiFi](./Project9-PhotosensorWiFi.ino)
+10. [OLED Message Display using WiFi Webserver](./Project10-OLEDMessageWiFi.ino)
+11. [Stopwatch + WiFi](./Project11-StopwatchWiFi.ino)
+12. [Stopwatch (w/ Laps) + WiFi](./Project12-StopwatchLapsWiFi.ino)
+13. [In/Out Counter](./Project13-Counter.ino)
+14. [Real Time Weather & Time Display](./Project14-RTWeather&TimeDisplay.ino)
+15. [Multi-Mode IoT Hub](./Project15-MultiModeIOTHub.ino)
+16. [DHT11 Data Logger](./Project16-DHTDataLogger.ino)
+17. [Joystick Controlled Menu](./Project17-JoystickMenu.ino)
+18. [Mock Stock Tracker](./Project18-MockStockTracker.ino)
+19. [Gyro Display](./Project19-GyroDisplay.ino)
+20. [Morse Translator](./Project20-MorseTranslator.ino)
+21. [Mini Automatic Engineering Notebook](./Project21-MiniAEN)
+22. [Mini IoT Cloud](./Project22-MiniIoTCloud)
+23. [Smart AI Predictor](./Project23-SmartPredict)
+24. [ESP Auto-Environment](./Project24-ESPAuto-Environment)
 
 ---------
 
