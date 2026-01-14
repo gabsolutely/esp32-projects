@@ -30,6 +30,7 @@ MIT License — feel free to use, modify, and distribute.
 22. [Mini IoT Cloud](./Project22-MiniIoTCloud)
 23. [Smart AI Predictor](./Project23-SmartPredict)
 24. [ESP Auto-Environment](./Project24-ESPAuto-Environment)
+25. [ESP Smart-Environment](./Project25-ESPSmart-Environment)
 
 ---------
 
@@ -176,3 +177,7 @@ MIT License — feel free to use, modify, and distribute.
 -**Description:** An ESP32 that reads sensor values and provides an automated trigger system using thresholds to decide what action is necessary and outputs them towards a set of LEDs and a local webserver dashboard. Other noteable features include: a modular code system and individual files for particular concerns and easier expansion, a downloadable CSV file in the dashboard which contains the sensor logs, and a chart.js in the dashboard which displays sensor values in real-time charts.
 
 ---------
+
+## Project #25: ESP Smart-Environment
+-**Code:** [Project25-ESPSmart-Environment](./Project25-ESPSmart-Environment)
+-Description: An ESP32 project that reads multiple sensors (temperature, humidity, light, motion) and triggers mock AI (interchangeable with a real AI) automated actions with LEDs and a buzzer.  Other features include: modular code structure (SensorManager, IOManager, Logger, AutomationAI) for easy expansion, a local web dashboard with a custom design, real-time Chart.js graphs, downloadable CSV logs, system logs display, manual override labels, and a mock AI module that can be replaced with a TensorFlow Lite model in the future.
