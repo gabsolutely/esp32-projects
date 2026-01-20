@@ -1,8 +1,8 @@
 # ESPSmart-Environment — How to Use
 -------------------------------
-# IMPORTANT* The version shown in the documentation is a mock TFLIte version. This project had taken weeks to build and I have searched far for a TFLIte version that actualy works, but theyre either incompatible or outdated. If you ever find a working version, the code would still work if you follow the steps properly, although it might need a few small tweaks and adjustments.
+### IMPORTANT* The version shown in the documentation is a mock TFLIte version. This project had taken weeks to build and I have searched far for a TFLIte version that actualy works, but theyre either incompatible or outdated. If you ever find a working version, the code would still work if you follow the steps properly, although it might need a few small tweaks and adjustments.
 
-What you have:
+## What you have:
 - ESPSmart-Environment.ino — ESP32 sketch that reads multiple sensors (DHT11 for temperature & humidity, light sensor, motion/distance sensor) and controls LEDs/buzzer.
 - SensorManager.h / SensorManager.cpp — handles sensor initialization and readings.
 - IOManager.h / IOManager.cpp — manages outputs like LEDs, buzzer, and automation logic.
@@ -11,7 +11,7 @@ What you have:
 - AI Mock/Model — gives inference to the AutomationAI::evaluate() to execute certain action labels based on the generated data it was trained on.
 All .cpp and .h files are in their respective /core and /include folders.
 
-Steps (local setup)
+## Steps (local setup)
 1. PC/IDE Setup
 Install Arduino IDE or PlatformIO, and ensure you have:
 - ESP32 board libraries installed.
@@ -41,24 +41,24 @@ Open ESPSmart-Environment.ino and configure:
 - Connect to the ESP32’s Wi-Fi AP (or your local network, depending on your setup).
 - Open the HTML dashboard in a browser to view live charts and download CSV logs.
 
-Features:
+## Features:
 - Monitored sensors: Temperature (DHT11), Humidity (DHT11), Light intensity (analog), Motion (digital)
 
-Automated responses:
+### Automated responses:
 - LED1 turns off if light sensor reads above threshold. (low light)
 - LED2 lights up if motion is detected.
 - Buzzer/LED3 alerts if temperature or humidity exceeds safe limits.
 
-Data logging:
+### Data logging:
 - CSV files generated for sensor readings and automation events.
 - Stored in /data/data.csv.
 
-Visualization:
+### Visualization:
 - Serial Monitor
 - Real-time charts using Chart.js
 - Downloadable CSV logs
 
-Notes:
+## Notes:
 - AI is currently a mock TensorFlow Lite module. If you get real TFLite running, it will automatically use your trained model.
 - Fully automated system, no manual intervention required after setup.
 - Dashboard works over local network. Remote access requires additional configuration.
@@ -69,7 +69,7 @@ Notes:
 - Temperature > 32°C or Humidity > 90% = Buzzer/LED3
 - Will pivot to a new AI model in a future project which is planned to have more AI features and a more sophisticated cloud system than past projects. 
 
-FILE STRUCTURE
+## FILE STRUCTURE
 
 ESPSmart-Environment
 /ESPSmart-Environment
@@ -101,4 +101,5 @@ ESPSmart-Environment
  - data.csv (will be used for logging)
  
 /README.md
+
 /platformio.ini
