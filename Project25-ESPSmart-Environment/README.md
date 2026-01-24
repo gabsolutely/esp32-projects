@@ -1,6 +1,6 @@
 # ESPSmart-Environment — How to Use
 -------------------------------
-### IMPORTANT* The version shown in the documentation is a mock TFLIte version. This project had taken weeks to build and I have searched far for a TFLIte version that actualy works, but theyre either incompatible or outdated. If you ever find a working version, the code would still work if you follow the steps properly, although it might need a few small tweaks and adjustments.
+- IMPORTANT* The version shown in the documentation is a mock TFLIte version. This project had taken weeks to build and I have searched far for a TFLIte version that actualy works, but theyre either incompatible or outdated. If you ever find a working version, the code would still work if you follow the steps properly, although it might need a few small tweaks and adjustments.
 
 ## What you have:
 - ESPSmart-Environment.ino — ESP32 sketch that reads multiple sensors (DHT11 for temperature & humidity, light sensor, motion/distance sensor) and controls LEDs/buzzer.
@@ -70,36 +70,30 @@ Open ESPSmart-Environment.ino and configure:
 - Will pivot to a new AI model in a future project which is planned to have more AI features and a more sophisticated cloud system than past projects. 
 
 ## FILE STRUCTURE
-
-ESPSmart-Environment
-/ESPSmart-Environment
- - ESPSmart-Environment.ino
-
-/core (move to main if using Arduino.IDE)
- - AutomationAI.cpp
- - IOManager.cpp
- - Logger.cpp
- - SensorManager.cpp
-
-/include (move to main if using Arduino.IDE)
- - AutomationAI.h
- - IOManager.h
- - Logger.h
- - SensorManager.h
-
-/model
- - model_data.cpp (move to main if using Arduino.IDE)
- - model_data.h (move to main if using Arduino.IDE)
- - TFLIteMicro.h (mock) (move to main if using Arduino.IDE)
- - AutomationAI.tflite
- - CreateData.py
- - data_advanced.csv
- - generate_model_data.py
- - TrainModel.py
-
-/data
- - data.csv (will be used for logging)
- 
-/README.md
-
-/platformio.ini
+``` bash
+ESPSmart-Environment/
+├── ESPSmart-Environment.ino
+├── core/                    # Move to main if using Arduino IDE
+│   ├── AutomationAI.cpp
+│   ├── IOManager.cpp
+│   ├── Logger.cpp
+│   └── SensorManager.cpp
+├── include/                 # Move to main if using Arduino IDE
+│   ├── AutomationAI.h
+│   ├── IOManager.h
+│   ├── Logger.h
+│   └── SensorManager.h
+├── model/
+│   ├── model_data.cpp        # Move to main if using Arduino IDE
+│   ├── model_data.h          # Move to main if using Arduino IDE
+│   ├── TFLIteMicro.h         # Mock, move to main if using Arduino IDE
+│   ├── AutomationAI.tflite
+│   ├── CreateData.py
+│   ├── data_advanced.csv
+│   ├── generate_model_data.py
+│   └── TrainModel.py
+├── data/
+│   └── data.csv              # Will be used for logging
+├── README.md
+└── platformio.ini
+```
