@@ -49,24 +49,25 @@ Notes:
 - Will add an AI/ML feature soon
 
 FILE STRUCTURE
-
-ESPAuto-Environment
-/ESPAuto-Environment
- - ESPAuto-Environment.ino
-
-/core (move to main if using Arduino.IDE)
- - Automation.cpp
- - IOManager.cpp
- - Logger.cpp
- - SensorManager.cpp
-
-/include (move to main if using Arduino.IDE)
- - Automation.h
- - IOManager.h
- - Logger.h
- - SensorManager.h
-
-/data
+```bash
+ESPAuto-Environment/
+├── ESPAuto-Environment/
+│   └── ESPAuto-Environment.ino
+├── core/
+│   ├── Automation.cpp
+│   ├── IOManager.cpp
+│   ├── Logger.cpp
+│   └── SensorManager.cpp
+├── include/
+│   ├── Automation.h
+│   ├── IOManager.h
+│   ├── Logger.h
+│   └── SensorManager.h
+├── data/
+│   └── data.csv
+└── README.md
+```
  - data.csv (optional)
  
+
 /README.md
