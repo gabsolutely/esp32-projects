@@ -63,11 +63,7 @@ ESPAuto-Environment/
 │   ├── IOManager.h
 │   ├── Logger.h
 │   └── SensorManager.h
-├── data/
+├── data/         # Optional
 │   └── data.csv
 └── README.md
 ```
- - data.csv (optional)
- 
-
-/README.md
