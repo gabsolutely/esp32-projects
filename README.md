@@ -1,5 +1,5 @@
 # Welcome! This is a collection of my projects!
-A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-mode IoT systems. Each of my projects as their ownn code and simple and brief description. (a few projects may need dependent libraries needed, so please double check before running.)
+A list of my ESP32 projects, my journey ranging from simple LED blinks to multi-mode IoT systems. Each of my projects as their own code and simple and brief description. (a few projects may need dependent libraries, so please double check before running.)
 
 # License
 MIT License — feel free to use, modify, and distribute.
